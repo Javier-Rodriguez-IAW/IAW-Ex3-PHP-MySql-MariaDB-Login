@@ -10,7 +10,6 @@ $usuario = recoge("usuario");
 $contrasena = recoge("contrasena");
 $valor = recoge("valor");
 
-
 $usuarioLogin = "admin";
 $contrasenaLogin = "P4ssw0rd";
 
