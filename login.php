@@ -12,7 +12,7 @@
 
     <h2> Enter your credentials </h2>
 
-    <form action="comprobar.php" method="post">
+    <form action="comprobarlogin.php" method="post">
  
     <label>User:</label>
     <input type="text" name="user" required/>

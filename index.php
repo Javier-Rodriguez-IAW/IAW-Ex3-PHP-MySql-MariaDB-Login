@@ -41,7 +41,7 @@ if(!isset ($_SESSION["conectado"] )|| $_SESSION["conectado"] = false){
 
     <br/>
 
-    <form action="comprobar.php" method="post">
+    <form action="comprobarlogin.php" method="post">
  
     <label>¿Quieres cerrar sesion?:</label>
 
