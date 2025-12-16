@@ -7,11 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-session_start();
-?>
 
-    <h4>Introduzca su nombre de usuario y contrasena</h4>
+<?php session_start(); ?>
+
+    <h2>Introduzca sus credenciales</h2>
 
     <form action="comprobar.php" method="post">
  

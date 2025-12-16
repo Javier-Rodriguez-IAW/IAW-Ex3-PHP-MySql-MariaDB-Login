@@ -6,16 +6,14 @@
 
 include ("recoge.php");
 
-$usuario=recoge("usuario");
-$contrasena=recoge("contrasena");
-$valor=recoge("valor");
+$usuario = recoge("usuario");
+$contrasena = recoge("contrasena");
+$valor = recoge("valor");
 
 
-$usuarioLogin="admin";
-$contrasenaLogin="P4ssw0rd";
+$usuarioLogin = "admin";
+$contrasenaLogin = "P4ssw0rd";
 
-
-// Validación del código ingresado
 if($usuario == "" || $contrasena == "" || $usuario != $usuarioLogin || $contrasena != $contrasenaLogin){
    
     $_SESSION["conectado"] = false;  
@@ -36,6 +34,7 @@ if($valor == "Si"){
 
     header("Location:index.php");
 }
+
 ?>
 
 <?php include("./footer.html"); ?>
