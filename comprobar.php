@@ -1,7 +1,6 @@
 <?php include("./header.html"); ?>
 <?php include("sesion.php"); ?>
 
-
 <?php
 
 include ("recoge.php");
