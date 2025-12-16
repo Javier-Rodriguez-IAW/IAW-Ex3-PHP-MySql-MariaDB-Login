@@ -5,14 +5,14 @@
 
 include ("recoge.php");
 
-$usuario = recoge("usuario");
-$contrasena = recoge("contrasena");
-$valor = recoge("valor");
+$user = recoge("user");
+$password = recoge("password");
+$value = recoge("valor");
 
-$usuarioLogin = "admin";
-$contrasenaLogin = "P4ssw0rd";
+$userLogin = "admin";
+$passwordLogin = "P4ssw0rd";
 
-if($usuario == "" || $contrasena == "" || $usuario != $usuarioLogin || $contrasena != $contrasenaLogin){
+if($user == "" || $password == "" || $user != $userLogin || $password != $passwordLogin){
    
     $_SESSION["conectado"] = false;  
     
@@ -24,10 +24,10 @@ if($usuario == "" || $contrasena == "" || $usuario != $usuarioLogin || $contrase
         header("Location:index.php");
 }
 
-if($valor == "Si"){
+if($value == "Si"){
     session_destroy();
 
-}elseif($valor == "No"){
+}elseif($value == "No"){
      $_SESSION["conectado"] = true;  
 
     header("Location:index.php");

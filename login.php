@@ -10,15 +10,16 @@
 
 <?php session_start(); ?>
 
-    <h2>Introduzca sus credenciales</h2>
+    <h2> Enter your credentials </h2>
 
     <form action="comprobar.php" method="post">
  
-    <label>Usuario:</label>
-    <input type="text"name="usuario" required/>
+    <label>User:</label>
+    <input type="text" name="user" required/>
     <br/>
-    <label>Contrasena:</label>
-    <input type="password"name="contrasena" required/>
+    <br/>
+    <label>Password:</label>
+    <input type="password" name="password" required/>
 
     <br/>
     <br/>
