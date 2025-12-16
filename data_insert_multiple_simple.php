@@ -6,11 +6,11 @@ include("config.php");
 
 // Prepare the multiple query
 $sql = "INSERT INTO MyGuests (firstname, lastname, email, telefono, codigo)
-VALUES ('John', 'Doe', 'john@example.com', '123456789', 'a12345');";
+VALUES ('John', 'Doe', 'john@example.com', '123456789', 'u12345');";
 $sql .= "INSERT INTO MyGuests (firstname, lastname, email, telefono, codigo)
-VALUES ('Mary', 'Moe', 'mary@example.com', '987654321', 'a54321);";
+VALUES ('Mary', 'Moe', 'mary@example.com', '987654321', 'u54321);";
 $sql .= "INSERT INTO MyGuests (firstname, lastname, email, telefono, codigo)
-VALUES ('Julie', 'Dooley', 'julie@example.com', '1234567891', 'a67890')";
+VALUES ('Julie', 'Dooley', 'julie@example.com', '1234567891', 'u67890')";
 
 if (mysqli_multi_query($conn, $sql)) {
   echo "New records created successfully";

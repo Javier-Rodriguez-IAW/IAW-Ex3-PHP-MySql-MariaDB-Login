@@ -15,7 +15,7 @@ $firstname = "John";
 $lastname = "Doe";
 $email = "john@example.com";
 $telefono = "123456789";
-$codigo = "a12345";
+$codigo = "u12345";
 mysqli_stmt_execute($stmt);
 
 // Second record
@@ -23,7 +23,7 @@ $firstname = "Mary";
 $lastname = "Moe";
 $email = "mary@example.com";
 $telefono = "987654321";
-$codigo = "a54321";
+$codigo = "u54321";
 mysqli_stmt_execute($stmt);
 
 // Third record
@@ -31,7 +31,7 @@ $firstname = "Julie";
 $lastname = "Dooley";
 $email = "julie@example.com";
 $telefono = "1234567890";
-$codigo = "a67890";
+$codigo = "u67890";
 mysqli_stmt_execute($stmt);
 
 echo "New records created successfully";
